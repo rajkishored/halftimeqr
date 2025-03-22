@@ -11,13 +11,27 @@ import { FcGoogle } from "react-icons/fc";
 
 const ChooseLinkPage = () => {
   return (
-    <div className="bg-black h-[100vh] ">
-      <div className="max-w-[90%] m-auto">
+    <div className="bg-black h-dvh ">
+      <div className="max-w-[100%] pt-14 m-auto">
         <img className="object-cover w-full" src="/halftime.jpg" />
+      </div>
+      <div className="max-w-[90%] mx-auto text-center mt-14">
+        <h2 className="text-orange-300 text-2xl font-sans font-semibold   text-center ">
+          Hello!
+        </h2>
+        <h2 className="text-white text-[12.5px] font-sans mt-2 text-center   ">
+          Stay connected with us! Follow us on{" "}
+          <span className="font-semibold text-amber-50">Instagram</span>, chat
+          with us on{" "}
+          <span className="font-semibold text-amber-50">WhatsApp</span>, or
+          explore our{" "}
+          <span className="font-semibold text-amber-50">Google</span> page. Just
+          click the buttons below to get started!
+        </h2>
       </div>
       {/* <div class="w-[100%] h-[1px] bg-amber-100  animate-flash"></div> */}
 
-      <div className="w-[90%] m-auto pt-33 flex flex-col gap-6 text-center">
+      <div className="w-[90%] m-auto pt-21 flex flex-col gap-6 text-center">
         <div>
           <a
             href="https://wa.me/919148541294?text=hello"
@@ -54,22 +68,9 @@ const ChooseLinkPage = () => {
 
         {/* Link 3 */}
       </div>
-      <div>
-        <h2 className="text-orange-300 text-2xl font-sans font-semibold absolute top-[36%] px-5  text-center left-6 w-70 ">
-          Hello!
-        </h2>
-        <h2 className="text-white text-[12.5px] font-sans absolute top-[43%] pl-5 text-center left-6 w-70 ">
-          Stay connected with us! Follow us on{" "}
-          <span className="font-semibold text-amber-50">Instagram</span>, chat
-          with us on{" "}
-          <span className="font-semibold text-amber-50">WhatsApp</span>, or
-          explore our{" "}
-          <span className="font-semibold text-amber-50">Google</span> page. Just
-          click the buttons below to get started!
-        </h2>
-      </div>
+   
 
-      <h2 className="text-gray-400 text-[8px] absolute bottom-2 left-[38%] tex">
+      <h2 className="text-gray-400 text-[8px] absolute bottom-3 left-[40%] tex">
         rajkishoredjr@{new Date().getFullYear()}
       </h2>
     </div>
