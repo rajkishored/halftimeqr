@@ -12,8 +12,8 @@ import { FcGoogle } from "react-icons/fc";
 const ChooseLinkPage = () => {
   return (
     <div className="bg-black h-dvh ">
-      <div className="max-w-[100%] pt-14 m-auto">
-        <img className="object-cover w-full" src="/halftime.jpg" />
+      <div className="max-w-[100%] pt-14 m-auto rounded-10xl border-amber-50 border-b-2">
+        <img className="object-cover w-full rounded-5xl border-amber-50" src="/halftime.jpg" />
       </div>
       <div className="max-w-[90%] mx-auto text-center mt-14">
         <h2 className="text-orange-300 text-3xl font-sans font-semibold   text-center ">
