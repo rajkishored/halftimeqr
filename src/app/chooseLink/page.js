@@ -16,10 +16,10 @@ const ChooseLinkPage = () => {
         <img className="object-cover w-full" src="/halftime.jpg" />
       </div>
       <div className="max-w-[90%] mx-auto text-center mt-14">
-        <h2 className="text-orange-300 text-2xl font-sans font-semibold   text-center ">
+        <h2 className="text-orange-300 text-3xl font-sans font-semibold   text-center ">
           Hello!
         </h2>
-        <h2 className="text-white text-[12.5px] font-sans mt-2 text-center   ">
+        <h2 className="text-white text-[14px] font-sans mt-2 text-center   ">
           Stay connected with us! Follow us on{" "}
           <span className="font-semibold text-amber-50">Instagram</span>, chat
           with us on{" "}
@@ -70,8 +70,8 @@ const ChooseLinkPage = () => {
       </div>
    
 
-      <h2 className="text-gray-400 text-[8px] absolute bottom-3 left-[40%] tex">
-        rajkishoredjr@{new Date().getFullYear()}
+      <h2 className="text-gray-400 text-[8px] absolute bottom-3 left-[41%] tex">
+        halftimecafe@{new Date().getFullYear()}
       </h2>
     </div>
   );
